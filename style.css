@@ -1,0 +1,60 @@
+h1 {
+  color: yellow;
+  background-color: rgb(61, 179, 238);
+  border: 10px solid rgb(20, 32, 168);
+  padding: 50px;
+  margin: 50px;
+
+  font-size: 52px;
+  text-align: center;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-image: url("https://preview.redd.it/18qj8ncqmd961.jpg?auto=webp&s=39c6521c4b6a563878dc9e134774c0e029fe7b62");
+}
+
+ul {
+  color: yellow;
+  background-color: silver;
+  border: 5px rgb(84, 168, 20);
+  padding: 25px;
+  margin: 25px;
+}
+
+h2 {
+  color: black;
+}
+
+.sidebar {
+  background-color: rgb(87, 105, 237);
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0.5rem;
+  height: 20vh;
+  overflow: auto;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+}
+
+.sidebar-nav a {
+  display: block;
+  margin: 1rem;
+  background-color: #222;
+  padding: 5rem 1rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  position: relative;
+  top: 30px;
+  right: 30px;
+  background-color: blueviolet;
+  padding: 40px;
+  margin: 50px;
+}
